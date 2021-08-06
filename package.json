@@ -1,0 +1,30 @@
+{
+  "name": "knockout-typescript",
+  "version": "1.2.0",
+  "description": "An example of using TypeScript and Knockout’s type definitions to create view models, components and bindings that are strongly typed.",
+  "scripts": {
+    "serve": "webpack serve --open",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "knockout": "^3.5.1",
+    "knockout.validation": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-typescript": "^7.13.0",
+    "babel-loader": "^8.2.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^5.3.1",
+    "typescript": "^4.2.3",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "keywords": [],
+  "author": "Jon Keeping",
+  "license": "ISC"
+}
